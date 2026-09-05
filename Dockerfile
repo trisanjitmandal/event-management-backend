@@ -11,4 +11,4 @@ RUN cp target/*.jar app.jar
 
 EXPOSE 8080
 
-CMD ["sh", "-c", "getent hosts db.typstbjeouuirrhgerpm.supabase.co; java -jar app.jar"]
+CMD ["java", "-jar", "app.jar"]
